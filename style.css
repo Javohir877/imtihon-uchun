@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+      background: #fff;
+      color: #333;
+    }
+header{
+     width: 100%;
+      background: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 80px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+header.logo{
+   font-size: 24px;
+      font-weight: 600;
+      color: #e63946;
+}
+ nav ul {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+    }
+    nav ul li a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #333;
+      transition: 0.3s;
+    }
+  nav ul li a:hover {
+      color: #e63946;
+    }
+     .btn-header {
+      background: #e63946;
+      padding: 10px 20px;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+ 
+    .hero {
+      background: url('https://www.shutterstock.com/image-illustration/health-concept-stethoscope-on-black-260nw-1017037081.jpg') no-repeat center center/cover;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 97px;
+    }
+     .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text .btn {
+      display: inline-block;
+      background: #e63946;
+      padding: 12px 25px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+    .hero img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    
+    .services {
+      padding: 60px 80px;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    .service-box {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+  .service {
+      background: #fff;
+      width: 300px;
+      text-align: left;
+    }
+
+    .service img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .service h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+  
+    .contact {
+      background: #00bcd4;
+      padding: 60px 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .contact iframe {
+      width: 45%;
+      height: 250px;
+      border: 0;
+      border-radius: 10px;
+    }
+
+    .contact form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 45%;
+    }
+      .contact form input,
+    .contact form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .contact form button {
+      width: 100%;
+      padding: 12px;
+      background: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+ .al{
+  width: 50px;
+  height: 50px;
+ }
+ 
